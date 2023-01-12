@@ -1,0 +1,9 @@
+*.pyc
+*.log
+*.rdb
+runs/*
+libs/redis_config.py
+algo_envs/runs/*
+*.png
+train_main_local/runs/*
+test.py

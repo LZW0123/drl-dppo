@@ -42,7 +42,8 @@ def get_current_env_name():
     
     #return "PPOMujocoNormalHogwild"
     #return "PPOMujocoNormalShare"
-    return "PPOMujocoNormalShareGAE"
+    #return "PPOMujocoNormalShareGAE"
+    return "PPOGymCategoricalShare"
 
 # Pay attention to the configuration of redis, ensure that database should not 
 # conflict at each training.
